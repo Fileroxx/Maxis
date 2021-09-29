@@ -53,13 +53,13 @@ export default function NavbarMobile(){
 
 
         <div className={styles.links} style={{ textAlign: 'center', paddingTop: '6rem', display: 'flex', flexDirection: 'column', padding: '1rem', margin: '1rem'}}>
-            <Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: '600', fontFamily: 'Exo' ,background: 'linear-gradient(#07daff, #00cd88)' }}>Qual é o seu business?</Button>
+            <Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo' ,background: 'linear-gradient(#07daff, #00cd88)' }}>Qual é o seu business?</Button>
             <br />
-            <Button fullWidth  style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: '600', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>O que fazemos?</Button>
+            <Button fullWidth  style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>O que fazemos?</Button>
             <br />
-            <Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: '600', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Educação</Button>
+            <Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Educação</Button>
             <br />
-            <Button fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: '600', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Blog</Button>
+            <Button fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Blog</Button>
 
 
         </div>
