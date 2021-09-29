@@ -1,0 +1,59 @@
+#apresentacao {
+  background: #f7f7f7;
+  font-family: "Exo", sans-serif;
+}
+
+#apresentacao .texto {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+#apresentacao .texto h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+#apresentacao .texto span {
+  font-weight: 600;
+}
+
+#apresentacao .texto p {
+  font-size: 1.5rem;
+  font-style: italic;
+  padding-top: 1rem;
+  font-weight: 300;
+}
+
+#apresentacao .card {
+  background: linear-gradient(93.4deg, #01ce8e 31.29%, #07dafd 106.14%);
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 3rem;
+}
+
+#apresentacao .descricao {
+  display: flex;
+  align-items: center;
+}
+
+#apresentacao .descricao p {
+  color: #fff;
+  font-style: italic;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 5rem;
+}
+
+@media screen and (max-width: 458px) {
+  #apresentacao .card img {
+    display: none;
+  }
+
+  #apresentacao .descricao p {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}

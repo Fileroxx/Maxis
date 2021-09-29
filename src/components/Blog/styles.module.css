@@ -1,0 +1,84 @@
+#blog {
+  font-family: "Exo", sans-serif;
+}
+
+#blog .hero {
+  background: url("../../../public/faixadireita.png"),
+    linear-gradient(345.21deg, #00232e -7.32%, #002a38 64.52%);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #fff;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#blog .hero h1 {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 3rem;
+  padding-right: 6rem;
+}
+
+#blog h2 {
+  padding-top: 3rem;
+  font-weight: 400;
+  color: #002a38;
+  font-style: italic;
+}
+
+#blog .cards {
+  display: flex;
+}
+
+#blog .card {
+  padding: 0rem;
+  margin: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 8rem;
+}
+
+#blog .card:first-child {
+  margin-left: 0;
+}
+
+#blog .card h5 {
+  color: #002a38;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+#blog .titulo {
+  border-bottom: 0.7px solid #002a38;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#blog .texto p {
+  color: #002a38;
+  padding-top: 1rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+#blog .info {
+  display: flex;
+  justify-content: space-between;
+  color: #002a38;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  #blog .cards {
+    flex-direction: column;
+  }
+
+  #blog .card {
+    margin: 3rem !important;
+  }
+
+  #blog h2 {
+    text-align: center;
+  }
+}

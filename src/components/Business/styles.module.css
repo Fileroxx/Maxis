@@ -1,0 +1,78 @@
+#business {
+  font-family: "Exo", sans-serif;
+}
+
+#business .titulo {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#business .titulo h3 {
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+#business .titulo p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 1.5rem;
+}
+
+#business .imagem {
+  padding-top: 5rem;
+}
+
+#business .cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#business .cards .card {
+  padding: 2rem;
+}
+
+#business .cards .card .titulo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#business .cards .card .titulo h5 {
+  font-size: 1.5rem;
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+
+#business .cards .card .titulo img {
+  width: 8%;
+  height: 8%;
+}
+
+#business .cards .card .texto {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1rem;
+}
+
+#business .cards .card .texto p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#business .cards .card .botao {
+  padding-right: 9rem;
+  text-transform: capitalize;
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  #business .cards {
+    flex-direction: column;
+  }
+}

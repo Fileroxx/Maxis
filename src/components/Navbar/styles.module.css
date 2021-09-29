@@ -1,0 +1,16 @@
+#navbar {
+  font-family: "Exo", sans-serif;
+  color: #fff;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#navbar .links a {
+  padding-left: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #navbar {
+    display: none;
+  }
+}

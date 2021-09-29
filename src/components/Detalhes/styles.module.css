@@ -1,0 +1,96 @@
+#detalhes {
+  font-family: "Exo", sans-serif;
+}
+
+#detalhes .detalhes {
+  background: #f6f6f6;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+#detalhes .detalhes h3 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+#detalhes .detalhes p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-right: 20rem;
+  padding-top: 1.5rem;
+}
+
+#detalhes .autor {
+  display: flex;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+#detalhes .autor img {
+  width: 9%;
+}
+
+#detalhes .autor .texto {
+  padding-left: 1rem;
+}
+
+#detalhes .autor .texto p {
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 5px;
+}
+
+#detalhes .cards {
+  display: flex;
+}
+
+#detalhes .card {
+  padding: 0rem;
+  margin: 3rem;
+  background: linear-gradient(97.7deg, #1e2022 0.18%, #032b39 66.43%);
+  border-radius: 10px;
+  color: #fff;
+  margin-bottom: 6rem;
+}
+
+#detalhes .card:first-child {
+  margin-left: 0;
+}
+
+#detalhes .card p {
+  padding: 2rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+  font-style: italic;
+}
+
+#detalhes h3 {
+  font-size: 2rem;
+  padding-top: 3rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 768px) {
+  #detalhes .detalhes h3 {
+    padding: 0;
+    margin: 0;
+  }
+
+  #detalhes .detalhes p {
+    padding: 0;
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  #detalhes .autor img {
+    width: 20%;
+  }
+
+  #detalhes .cards {
+    flex-direction: column;
+  }
+
+  #detalhes .card {
+    margin: 3rem !important;
+  }
+}

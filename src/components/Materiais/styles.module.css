@@ -1,0 +1,42 @@
+#materiais {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-family: "Exo", sans-serif;
+}
+
+#materiais h3 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+#materiais p {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#materiais .cards {
+  display: flex;
+}
+
+#materiais .card {
+  padding: 0rem;
+  margin: 2rem;
+  background: linear-gradient(97.7deg, #1e2022 0.18%, #032b39 66.43%);
+  border-radius: 10px;
+  color: #fff;
+}
+
+#materiais .card p {
+  padding: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  #materiais .cards {
+    flex-direction: column;
+  }
+
+  #materiais .card {
+    margin: 3rem;
+  }
+}

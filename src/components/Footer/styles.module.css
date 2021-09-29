@@ -1,0 +1,33 @@
+#footer {
+  background: url("../../../public/faixafooter.png"),
+    linear-gradient(94.13deg, #012b39 -12.34%, #012531 75.85%);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 20%, 100%;
+  background-position: right;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  text-align: center;
+}
+
+#footer p {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+#footer .icones a {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 458px) {
+  #footer p {
+    padding-top: 1rem;
+  }
+
+  #footer {
+    background: linear-gradient(94.13deg, #012b39 -12.34%, #012531 75.85%);
+  }
+}
