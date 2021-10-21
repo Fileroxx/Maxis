@@ -63,7 +63,6 @@ export default function NavbarMobile(){
 
 
         </div>
-
         </Fade>
     
 

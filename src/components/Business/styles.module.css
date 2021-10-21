@@ -71,6 +71,21 @@
   font-style: italic;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  #business .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #business .cards .card {
+    padding: 2rem 15rem;
+  }
+
+  #business .cards .card .botao {
+    font-size: 1rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #business .cards {
     flex-direction: column;

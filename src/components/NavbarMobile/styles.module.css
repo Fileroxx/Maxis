@@ -3,6 +3,8 @@
   align-items: center;
   text-align: center;
   font-family: "Exo", sans-serif;
+  position: relative;
+  z-index: 1;
 }
 
 #navbarMobile .menu {

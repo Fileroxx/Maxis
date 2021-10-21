@@ -31,6 +31,16 @@
   padding: 2rem;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  #materiais .cards .card {
+    margin: 1rem;
+  }
+
+  #materiais .card p {
+    padding: 1.5rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #materiais .cards {
     flex-direction: column;
