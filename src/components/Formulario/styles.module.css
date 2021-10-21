@@ -47,9 +47,26 @@
   font-weight: 600;
 }
 
+@media screen and (min-width: 459px) and (max-width: 767px) {
+  #formulario .cardInfo {
+    padding: 2rem;
+  }
+
+  #formulario .cardInfo h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  #formulario .cardInfo p {
+    font-size: 1.3rem;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 458px) {
   #formulario .cardInfo {
-    padding: 5rem;
+    padding: 2rem;
   }
 
   #formulario .cardInfo h3 {

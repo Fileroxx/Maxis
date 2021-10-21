@@ -47,6 +47,17 @@
   padding-right: 5rem;
 }
 
+@media screen and (min-width: 459px) and (max-width: 767px) {
+  #apresentacao .card img {
+    display: none;
+  }
+
+  #apresentacao .descricao p {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}
+
 @media screen and (max-width: 458px) {
   #apresentacao .card img {
     display: none;
@@ -55,5 +66,15 @@
   #apresentacao .descricao p {
     font-size: 1.5rem;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  #apresentacao .texto p {
+    font-size: 1.2rem;
+  }
+
+  #apresentacao .descricao p {
+    font-size: 1.2rem;
   }
 }

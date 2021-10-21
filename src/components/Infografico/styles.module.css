@@ -54,6 +54,25 @@
   font-style: italic;
 }
 
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  #infografico img {
+    width: 30%;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 459px) and (max-width: 767px) {
+  #infografico .texto p {
+    padding: 0;
+    font-size: 1.3rem;
+  }
+
+  #infografico img {
+    width: 50%;
+    padding-bottom: 1rem;
+  }
+}
+
 @media screen and (max-width: 458px) {
   #infografico .texto p {
     padding: 0;
@@ -63,5 +82,19 @@
   #infografico img {
     width: 50%;
     padding-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  #infografico .cardInfo p {
+    font-size: 1.2rem;
+  }
+
+  #infografico .cardInfo {
+    padding: 2rem;
+  }
+
+  #infografico .texto p {
+    font-size: 1.2rem;
   }
 }

@@ -94,3 +94,13 @@
     margin: 3rem !important;
   }
 }
+
+@media screen and (max-width: 359px) {
+  #detalhes .card {
+    margin: 1rem !important;
+  }
+
+  #detalhes .autor .texto p {
+    line-height: 15px;
+  }
+}

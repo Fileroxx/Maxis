@@ -31,6 +31,12 @@
   padding: 2rem;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #materiais .cards .card {
+    margin: 8rem;
+  }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
   #materiais .cards .card {
     margin: 1rem;
@@ -41,6 +47,16 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #materiais .cards {
+    flex-direction: column;
+  }
+
+  #materiais .card {
+    margin: 3rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #materiais .cards {
     flex-direction: column;
@@ -48,5 +64,11 @@
 
   #materiais .card {
     margin: 3rem;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  #materiais .card {
+    margin: 1rem;
   }
 }

@@ -5,7 +5,12 @@ import NavbarMobile from '../NavbarMobile'
 import styles from './styles.module.css'
 import Head from 'next/head'
 
+
+
+
+
 export default function Main(){
+
     return(
 
         <div id={styles.main}>
