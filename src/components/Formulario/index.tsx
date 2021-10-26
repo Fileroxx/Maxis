@@ -1,13 +1,22 @@
 import { Box, Button, TextField } from '@material-ui/core'
 import { Col, Container, Form, Row } from 'react-bootstrap'
 import styles from './styles.module.css'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 export default function Formulario() {
+    
+    useEffect(() => {
+        AOS.init()
+    })
+    
     return(
         <div id={styles.formulario}>
             <Container>
 
-                <div className={styles.cardInfo}>
+                <div className={styles.cardInfo} data-aos='fade-right'>
                     <Row>
                         <Col xs={12} lg={6}>
 

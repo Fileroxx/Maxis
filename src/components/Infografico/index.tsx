@@ -1,18 +1,29 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import styles from './styles.module.css'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Infografico(){
+
+    useEffect(() => {
+        AOS.init();
+    })
+
     return(
         <div id={styles.infografico}>
+
+            <div id="infografico">
+
             <Container>
 
             <div className={styles.cardInfo}>
 
             <div className={styles.titulo}>
-                <h3>O que fazemos?</h3>
+                <h3 data-aos='fade-up'>O que fazemos?</h3>
             </div>
 
-            <p>
+            <p data-aos='fade-up'>
             Acreditamos que com a tecnologia poderemos levar
             transformação e gerar oportunidades de crescimento 
             para qualquer tipo de negócio, inclusive o seu.
@@ -22,7 +33,7 @@ export default function Infografico(){
 
 
 
-        <div className={styles.card}>
+            <div className={styles.card} data-aos='fade-right'>
 
             <Row>
 
@@ -53,7 +64,7 @@ export default function Infografico(){
 
             </Row>
 
-        </div>
+            </div>
 
 
 
@@ -62,20 +73,20 @@ export default function Infografico(){
 
 
 
-        <div className={styles.card}>
+            <div className={styles.card } data-aos='fade-right'>
 
-        <Row>
+            <Row>
 
-        <Col lg={2}>
+            <Col lg={2}>
 
                 <div className={styles.icone}>
                     <img width="100%" src="pesquisa.png" alt=""/>    
                 </div>   
 
-        </Col>
+            </Col>
 
 
-        <Col lg={10}>
+            <Col lg={10}>
                 <div className={styles.texto}>
 
                     <h4>Pesquisa de Mercado</h4>
@@ -88,32 +99,32 @@ export default function Infografico(){
                     </p>
 
                 </div>
-        </Col>
+            </Col>
 
 
-        </Row>
+            </Row>
 
-        </div>
-
-
-
+            </div>
 
 
 
-        <div className={styles.card}>
 
-        <Row>
 
-        <Col lg={2}>
+
+            <div className={styles.card} data-aos='fade-right'>
+
+            <Row>
+
+            <Col lg={2}>
 
                 <div className={styles.icone}>
                     <img width="100%" src="dados.png" alt=""/>    
                 </div>   
 
-        </Col>
+            </Col>
 
 
-        <Col lg={10}>
+            <Col lg={10}>
                 <div className={styles.texto}>
 
                     <h4>Desenvolvimento</h4>
@@ -128,93 +139,93 @@ export default function Infografico(){
                     </p>
 
                 </div>
-        </Col>
+            </Col>
 
 
-        </Row>
+            </Row>
 
-        </div>
-
-
-
+            </div>
 
 
 
-        <div className={styles.card}>
 
-        <Row>
 
-        <Col lg={2}>
+
+            <div className={styles.card} data-aos='fade-right'>
+
+            <Row>
+
+            <Col lg={2}>
 
                 <div className={styles.icone}>
                     <img width="100%" src="rocket.png" alt=""/>    
                 </div>   
 
-        </Col>
+            </Col>
 
 
-        <Col lg={10}>
+            <Col lg={10}>
                 <div className={styles.texto}>
 
                     <h4>Lançamento ao Mercado</h4>
 
                     <p>
-                     A partir da entrega do software desenvolvido,
-                     apresentamos o projeto ao mercado, conectando
-                     a players que podem potencialiar o uso e ao público
-                     de interesse para uso da solução desenvolvida.
+                    A partir da entrega do software desenvolvido,
+                    apresentamos o projeto ao mercado, conectando
+                    a players que podem potencialiar o uso e ao público
+                    de interesse para uso da solução desenvolvida.
                     </p>
 
                 </div>
-        </Col>
+            </Col>
 
 
-        </Row>
+            </Row>
 
-        </div>
-
-
-
+            </div>
 
 
 
 
 
-        <div className={styles.card}>
 
-        <Row>
 
-        <Col lg={2}>
+
+            <div className={styles.card} data-aos='fade-right'>
+
+            <Row>
+
+            <Col lg={2}>
 
                 <div className={styles.icone}>
                     <img width="100%" src="checklist.png" alt=""/>    
                 </div>   
 
-        </Col>
+            </Col>
 
 
-        <Col lg={10}>
+            <Col lg={10}>
                 <div className={styles.texto}>
 
                     <h4>Acompanhamento e Gestão</h4>
 
                     <p>
-                       Realizado por meio de monitoramento constante
-                       dos resultados de vendas e de marketing, 
-                       acompanhamos e estamos sempre atentos a 
-                       novidades para que o novo negócio esteja 
-                       sempre em crescimento no mercado, atento as
-                       novas oportunidades de alavancagem.
+                    Realizado por meio de monitoramento constante
+                    dos resultados de vendas e de marketing, 
+                    acompanhamos e estamos sempre atentos a 
+                    novidades para que o novo negócio esteja 
+                    sempre em crescimento no mercado, atento as
+                    novas oportunidades de alavancagem.
 
                     </p>
 
                 </div>
-        </Col>
+            </Col>
 
 
-        </Row>
+            </Row>
 
-        </div>
+            </div>
 
 
 
@@ -222,6 +233,11 @@ export default function Infografico(){
             </div>
 
             </Container>
+
+            </div>
+
+
+      
 
         </div>
     )

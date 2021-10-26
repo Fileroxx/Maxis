@@ -1,15 +1,25 @@
 import { Container } from 'react-bootstrap'
 import styles from './styles.module.css'
-
+import {useEffect} from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Materiais() {
+
+    useEffect(() => {
+        AOS.init();
+    })
+
     return(
         <div id={styles.materiais}>
+
+            <div id="materiais">
+         
             <Container>
 
-            <h3>Materiais Educacionais</h3>
+            <h3 data-aos='fade-up'>Materiais Educacionais</h3>
 
-            <p>
+            <p data-aos='fade-up'>
                 Acreditamos que contribuir para novos
                 negócios é o mesmo que contribuir para
                 um mundo melhor. Pensando nisto, 
@@ -20,7 +30,7 @@ export default function Materiais() {
 
             <div className={styles.cards}>
 
-                <div className={styles.card}>
+                <div className={styles.card} data-aos='fade-up'>
 
                     <img width="100%" src="homem.png" alt=""/>
 
@@ -33,7 +43,7 @@ export default function Materiais() {
 
 
 
-                <div className={styles.card}>
+                <div className={styles.card} data-aos='fade-up'>
 
                     <img width="100%" src="reuniao.png" alt=""/>
 
@@ -45,7 +55,7 @@ export default function Materiais() {
 
 
 
-                    <div className={styles.card}>
+                    <div className={styles.card} data-aos='fade-up'>
 
                     <img width="100%" src="mulher.png" alt=""/>
 
@@ -61,6 +71,9 @@ export default function Materiais() {
 
 
             </Container>
+            </div>
+
+           
         </div>
     )
 }

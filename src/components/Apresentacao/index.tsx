@@ -7,18 +7,26 @@ import "swiper/css/scrollbar"
 
 
 import SwiperCore, { Scrollbar } from 'swiper'
+import {useEffect} from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 SwiperCore.use([Scrollbar]);
 
 export default function Apresentacao(){
 
+    useEffect(() => {
+        AOS.init();
+    });
+
+
     return(
         <div id={styles.apresentacao}>
 
-            <Container>
+            <Container data-aos='fade-up'>
 
-                <div className={styles.texto}>
+                <div className={styles.texto} data-aos='fade-up'>
 
                     <h3>
                         A <span>Maxis</span>Plus
@@ -48,7 +56,7 @@ export default function Apresentacao(){
 
                 <SwiperSlide>
 
-                    <div className={styles.card}>
+                    <div className={styles.card} data-aos='fade-right'>
 
                         <div className={styles.descricao}>
 

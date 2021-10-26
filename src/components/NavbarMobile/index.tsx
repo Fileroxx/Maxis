@@ -1,10 +1,12 @@
 import { Col, Container, Nav, Navbar, NavbarBrand, Row } from "react-bootstrap";
 import styles from './styles.module.css';
 import MenuIcon from '@material-ui/icons/Menu';
-import { Button, Fade, Modal } from "@material-ui/core";
+import { Button, ClickAwayListener, Fade, Modal } from "@material-ui/core";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import React from 'react';
 import CloseIcon from '@material-ui/icons/Close';
+import Link from 'next/link'
+
 
 export default function NavbarMobile(){
 
@@ -18,6 +20,9 @@ export default function NavbarMobile(){
     const handleClose = () => {
         setOpen(false);
     };
+
+
+
 
     return(
 
@@ -52,14 +57,16 @@ export default function NavbarMobile(){
         <Fade in={open}>
 
 
+
         <div className={styles.links} style={{ textAlign: 'center', paddingTop: '6rem', display: 'flex', flexDirection: 'column', padding: '1rem', margin: '1rem'}}>
-            <Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo' ,background: 'linear-gradient(#07daff, #00cd88)' }}>Qual é o seu business?</Button>
+            <Link href="#business"><Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo' ,background: 'linear-gradient(#07daff, #00cd88)' }}>Qual é o seu business?</Button></Link>
             <br />
-            <Button fullWidth  style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>O que fazemos?</Button>
+            
+            <Link href="#infografico"><Button fullWidth  style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>O que fazemos?</Button></Link>
             <br />
-            <Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Educação</Button>
+            <Link href="#materiais"><Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Educação</Button></Link>
             <br />
-            <Button fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Blog</Button>
+            <Link href="/blog"><Button fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Blog</Button></Link>
 
 
         </div>
