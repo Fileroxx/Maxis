@@ -4,12 +4,32 @@ import Navbar from '../Navbar'
 import NavbarMobile from '../NavbarMobile'
 import styles from './styles.module.css'
 import Head from 'next/head'
+import { useEffect } from 'react';
 
 
 
 
 
 export default function Main(){
+
+    // useEffect(() => {
+    //     const randomIntFromInterval = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+
+    //     const styledMapContainer = document.querySelector('.styled_maps__container');
+    //     const styledMapContainerDiv = document.querySelector('.styled_maps__container div');
+        
+    //     setTimeout(() => {
+    //       styledMapContainerDiv.innerHTML = '';
+        
+    //       for (var i = 0; i < randomIntFromInterval(20, 500); i++) {
+    //         styledMapContainerDiv.innerHTML += `<div className="styled_maps--dots" style="top: ${randomIntFromInterval(20, 69.99)}% ; left: ${randomIntFromInterval(20, 100)}% ;"></div>`;
+    //       }
+    //     }, 1);
+    
+        
+    
+    // }, []);
+
 
     return(
 
@@ -21,7 +41,19 @@ export default function Main(){
 
         </Head>
 
+       <div className={styles.dots}>
 
+           <div className="styled_maps__container">
+
+        <div>
+        <div className="styled_maps--dots"></div>
+        </div>
+
+           </div>
+
+           </div>
+    
+            
             <Container>
                     
                 <Navbar />
@@ -33,11 +65,11 @@ export default function Main(){
 
 
 
-        <Col>
+        <Col lg={12}>
 
         <div className={styles.texto}>
 
-        <h1>
+            <h1>
             Potencializando 
             negócios para o mundo
             </h1>
@@ -48,6 +80,7 @@ export default function Main(){
             continentes do planeta,</span> desenvolvendo
             soluções para mercados
             de constantes mudanças.
+            O próximo negócio pode ser o seu!
 
             </p>
 
@@ -59,13 +92,16 @@ export default function Main(){
         </Col>
 
 
-        <Col></Col>
+        <Col>
+        
+        </Col>
         
 
 
         </Row>
 
-                        <ParticleBackground />        
+{/* 
+                        <ParticleBackground />         */}
 
             </Container>
 

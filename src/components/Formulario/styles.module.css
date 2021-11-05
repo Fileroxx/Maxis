@@ -1,5 +1,5 @@
 #formulario {
-  font-family: "Exo", sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 #formulario .cardInfo {
@@ -12,7 +12,7 @@
 
 #formulario .cardInfo h3 {
   font-size: 2.5rem;
-  font-style: italic;
+  font-weight: 600;
   padding-right: 8rem;
   background: -webkit-linear-gradient(#07daff, #00cd88);
   -webkit-background-clip: text;
@@ -23,8 +23,7 @@
   font-size: 1.4rem;
   padding-right: 4rem;
   margin-top: 2rem;
-  font-style: italic;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 #formulario .nome {
@@ -43,7 +42,6 @@
   color: #fff;
   text-transform: capitalize;
   font-size: 1.5rem;
-  font-style: italic;
   font-weight: 600;
 }
 

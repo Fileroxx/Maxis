@@ -1,0 +1,15 @@
+#scroll .progressMainWrapper {
+  background: #012b39;
+  height: 5px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+#scroll .progressMainStyle {
+  height: 5px;
+  background: linear-gradient(#07daff, #00cd88);
+  width: 15%;
+}

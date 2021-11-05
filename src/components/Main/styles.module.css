@@ -1,14 +1,10 @@
 #main {
-  background: radial-gradient(
-    95.09% 95.09% at 50% 14.68%,
-    #0a4659 0%,
-    #002633 100%
-  );
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background: url("../../../public/mapas.png"),
+    radial-gradient(95.09% 95.09% at 50% 14.68%, #0a4659 0%, #002633 100%);
+  background-size: 90%, cover;
+  background-position: top, center;
   background-repeat: no-repeat;
-  font-family: "Exo", sans-serif;
+  font-family: "Exo 2", sans-serif;
   position: relative;
   z-index: 1;
 }
@@ -19,9 +15,10 @@
   padding-bottom: 15rem;
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
-#main .tsparticles {
+/* #main .tsparticles {
   position: absolute;
   top: 0;
   left: 0;
@@ -29,17 +26,20 @@
   right: 0;
   z-index: 0;
   width: 100%;
-}
+} */
 
 #main .texto h1 {
   font-size: 3.5rem;
-  font-style: italic;
-  font-weight: 400;
+  font-style: bold;
+  font-weight: 700;
 }
 
 #main .texto p {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  padding: 0 8rem;
+  text-align: center;
   padding-top: 1rem;
 }
 
@@ -50,17 +50,107 @@
   -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 458px) {
+#main .dots .styled_maps__container {
+  position: relative;
+  width: 50%;
+}
+
+#main .dots .styled_maps--dots {
+  position: absolute;
+  top: 43.23%;
+  left: 21.3%;
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background: rgba(52, 172, 224, 1);
+  box-shadow: 0 0 0 0 rgb(52 172 224);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(52, 172, 224, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(52, 172, 224, 0);
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #main .texto p {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  #main {
+    background-size: 120%;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 459px) and (max-width: 767px) {
+  #main {
+    background: radial-gradient(
+      95.09% 95.09% at 50% 14.68%,
+      #0a4659 0%,
+      #002633 100%
+    );
+  }
+
   #main .texto h1 {
     font-size: 3rem;
+    text-align: left;
   }
 
   #main .texto p {
     font-size: 1.5rem;
+    text-align: left;
+    padding: 0;
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  #main {
+    background: radial-gradient(
+      95.09% 95.09% at 50% 14.68%,
+      #0a4659 0%,
+      #002633 100%
+    );
+  }
+
+  #main .texto h1 {
+    font-size: 2.8rem;
+    text-align: left;
+  }
+
+  #main .texto p {
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0;
+    padding-top: 1rem;
   }
 }
 
 @media screen and (max-width: 359px) {
+  #main {
+    background: radial-gradient(
+      95.09% 95.09% at 50% 14.68%,
+      #0a4659 0%,
+      #002633 100%
+    );
+  }
+
   #main .texto h1 {
     font-size: 2rem;
   }

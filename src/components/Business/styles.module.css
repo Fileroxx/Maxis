@@ -1,5 +1,20 @@
 #business {
-  font-family: "Exo", sans-serif;
+  font-family: "Exo 2", sans-serif;
+}
+
+#business .tituloBusiness {
+  text-align: left;
+  padding-top: 5rem;
+}
+
+#business .tituloBusiness h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+#business .tituloBusiness p {
+  font-size: 1.5rem;
+  padding-top: 1rem;
 }
 
 #business .titulo {
@@ -17,11 +32,11 @@
   font-size: 1.5rem;
   font-weight: 300;
   font-style: italic;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 #business .imagem {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 
 #business .cards {
@@ -32,7 +47,7 @@
 }
 
 #business .cards .card {
-  padding: 2rem;
+  padding-right: 8rem;
 }
 
 #business .cards .card .titulo {
@@ -42,7 +57,7 @@
 
 #business .cards .card .titulo h5 {
   font-size: 1.5rem;
-  font-style: italic;
+  font-weight: 700;
   padding-bottom: 1rem;
 }
 
@@ -58,17 +73,21 @@
 
 #business .cards .card .texto p {
   font-size: 1.2rem;
-  font-weight: 300;
-  font-style: italic;
+  font-weight: 400;
 }
 
 #business .cards .card .botao {
-  padding-right: 9rem;
   text-transform: capitalize;
-  font-weight: 300;
-  font-size: 1.1rem;
+  font-weight: 400;
+  font-size: 1.2rem;
   margin-top: 1rem;
-  font-style: italic;
+}
+
+#business .cards .card .botao:hover {
+  background: -webkit-linear-gradient(#07daff, #00cd88);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #00cd88;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -103,5 +122,11 @@
 @media screen and (max-width: 359px) {
   #business .cards .card .botao {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  #business .cards .card {
+    padding: 2rem 3rem;
   }
 }

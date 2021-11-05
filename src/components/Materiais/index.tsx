@@ -3,6 +3,7 @@ import styles from './styles.module.css'
 import {useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Link from 'next/link'
 
 export default function Materiais() {
 
@@ -27,9 +28,10 @@ export default function Materiais() {
                 para que você e seu negócio evoluam.
             </p>
 
-
+        
             <div className={styles.cards}>
 
+        <Link href="/blog">
                 <div className={styles.card} data-aos='fade-up'>
 
                     <img width="100%" src="homem.png" alt=""/>
@@ -40,21 +42,24 @@ export default function Materiais() {
                     </p>
 
                 </div>
+        </Link>
 
 
+        <Link href="/blog">  
 
                 <div className={styles.card} data-aos='fade-up'>
 
-                    <img width="100%" src="reuniao.png" alt=""/>
+                            <img width="100%" src="reuniao.png" alt=""/>
 
-                    <p>
-                    Preciso aumentar as minhas vendas, como?
-                    </p>
+                            <p>
+                            Preciso aumentar as minhas vendas, como?
+                            </p>
 
-                    </div>
+                </div>
+        </Link>
 
 
-
+        <Link href="/blog">
                     <div className={styles.card} data-aos='fade-up'>
 
                     <img width="100%" src="mulher.png" alt=""/>
@@ -64,7 +69,7 @@ export default function Materiais() {
                     </p>
 
                     </div>
-
+        </Link>
 
 
             </div>

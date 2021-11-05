@@ -5,6 +5,7 @@ import ArrowForwardRoundedIcon from '@material-ui/icons/ArrowForwardRounded';
 import {useEffect} from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Link from 'next/link'
 
 export default function Business(){
     
@@ -21,9 +22,11 @@ export default function Business(){
 
                 <Container>
 
-        <div className={styles.titulo} data-aos='fade-up'>
+        <div className={styles.tituloBusiness} data-aos='fade-up'>
             <h3>Qual o seu business?</h3>
-            <p>Desenvolvemos soluções para potencializar a sua ideia</p>
+            <p>
+            Soluções para potencializar a sua ideia, seja no físico ou no digital. 
+            </p>
         </div>
 
         <div className={styles.imagem} data-aos='fade-right'>
@@ -53,12 +56,15 @@ export default function Business(){
                 </div>
 
                 <div className={styles.botaoContainer}>
-                    <Button
-                    className={styles.botao}
-                    endIcon={<ArrowForwardRoundedIcon/>}
-                    >
-                            Saiba mais
-                    </Button>
+                    <Link href="/detalhes">
+                        <Button
+                        className={styles.botao}
+                        endIcon={<ArrowForwardRoundedIcon/>}
+                        >
+                                Saiba mais
+                        </Button>             
+                    </Link>
+
                 </div>
 
             </div>
@@ -86,12 +92,16 @@ export default function Business(){
             </div>
 
             <div className={styles.botaoContainer}>
-                <Button
-                className={styles.botao}
-                endIcon={<ArrowForwardRoundedIcon/>}
-                >
-                        Saiba mais
-                </Button>
+
+                <Link href="/detalhes">
+                    <Button
+                    className={styles.botao}
+                    endIcon={<ArrowForwardRoundedIcon/>}
+                    >
+                            Saiba mais
+                    </Button>          
+                </Link>
+
             </div>
 
             </div>
@@ -120,11 +130,14 @@ export default function Business(){
             </div>
 
             <div className={styles.botaoContainer}>
-                <Button 
-                endIcon={<ArrowForwardRoundedIcon/>}
-                className={styles.botao}>
-                        Saiba mais
-                </Button>
+                <Link href="/detalhes">
+                    <Button 
+                    endIcon={<ArrowForwardRoundedIcon/>}
+                    className={styles.botao}>
+                            Saiba mais
+                    </Button>             
+                </Link>
+
             </div>
 
             </div>
