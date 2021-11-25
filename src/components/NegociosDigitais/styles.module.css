@@ -53,6 +53,7 @@
   border-radius: 10px;
   color: #fff;
   margin-bottom: 6rem;
+  cursor: pointer;
 }
 
 #detalhes .card:first-child {

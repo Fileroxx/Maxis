@@ -2,7 +2,7 @@
   background: linear-gradient(345.21deg, #00232e -7.32%, #002a38 64.52%);
   padding-top: 3rem;
   padding-bottom: 3rem;
-  font-family: "Exo", sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 
 #navbarblog .links {
@@ -12,9 +12,12 @@
 #navbarblog .links button {
   color: #fff;
   font-weight: 400;
-  font-family: "Exo", sans-serif;
+  position: relative;
+  font-family: "Exo 2", sans-serif;
   text-transform: capitalize;
   font-size: 1.2rem;
+  text-align: center;
+  align-items: center;
   padding-left: 2rem;
 }
 

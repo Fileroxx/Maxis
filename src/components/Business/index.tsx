@@ -42,7 +42,7 @@ export default function Business(){
 
                 <div className={styles.titulo}>
                     <h5>Startup</h5>
-                    <img src="foguete.png" alt=""/>
+                    <img src="rocket.png" alt=""/>
 
                 </div>
 

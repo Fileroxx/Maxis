@@ -92,6 +92,7 @@
 
   #detalhes .card {
     margin: 3rem !important;
+    cursor: pointer;
   }
 }
 

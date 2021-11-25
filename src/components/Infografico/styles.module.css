@@ -42,6 +42,7 @@
   background: #012b39;
   border: 1px solid #07daff;
   padding: 3rem;
+  width: 80%;
   border-radius: 100%;
   text-align: center;
 }
@@ -51,7 +52,7 @@
 }
 
 #infografico .icone img {
-  width: 50%;
+  width: 80%;
 }
 
 #infografico .texto p {

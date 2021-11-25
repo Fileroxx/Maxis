@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
 import styles from './styles.module.css'
+import Link from 'next/link'
 
 export default function Aumentar() {
     return(
@@ -94,40 +95,54 @@ export default function Aumentar() {
 
                     <div className={styles.cards}>
 
-                <div className={styles.card}>
+        <Link href="/comecar">
+        
+        <div className={styles.card}>
 
-                    <img width="100%" src="homem.png" alt=""/>
+        <img width="100%" src="homem.png" alt=""/>
 
-                    <p>
-                    Como começar um negócio
-                    na internet?
-                    </p>
+        <p>
+        Como começar um negócio
+        na internet?
+        </p>
 
-                </div>
+        </div>
 
-
-
-                <div className={styles.card}>
-
-                    <img width="100%" src="reuniao.png" alt=""/>
-
-                    <p>
-                    Preciso aumentar as minhas vendas, como?
-                    </p>
-
-                    </div>
+        </Link>
 
 
 
-                    <div className={styles.card}>
+        <Link href="/aumentar">
+        
+        <div className={styles.card}>
 
-                    <img width="100%" src="mulher.png" alt=""/>
+        <img width="100%" src="reuniao.png" alt=""/>
 
-                    <p>
-                    Como saber se seu negócio é escalável?
-                    </p>
+        <p>
+        Preciso aumentar as minhas vendas, como?
+        </p>
 
-                    </div>
+        </div>
+
+        </Link>
+ 
+
+
+        <Link href="/escalavel">
+
+        <div className={styles.card}>
+
+        <img width="100%" src="mulher.png" alt=""/>
+
+        <p>
+        Como saber se seu negócio é escalável?
+        </p>
+
+        </div>
+
+
+        </Link>
+
 
 
 

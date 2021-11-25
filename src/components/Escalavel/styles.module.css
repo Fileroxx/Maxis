@@ -51,6 +51,7 @@
   margin: 3rem;
   background: linear-gradient(97.7deg, #1e2022 0.18%, #032b39 66.43%);
   border-radius: 10px;
+  cursor: pointer;
   color: #fff;
   margin-bottom: 6rem;
 }

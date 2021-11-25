@@ -158,7 +158,7 @@ export default function Infografico(){
             <Col lg={2}>
 
                 <div className={styles.icone}>
-                    <img width="100%" src="rocket.png" alt=""/>    
+                    <img width="100%" src="rocket2.png" alt=""/>    
                 </div>   
 
             </Col>

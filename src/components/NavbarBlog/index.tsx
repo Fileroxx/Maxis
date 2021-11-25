@@ -21,9 +21,10 @@ export default function NavbarBlog(){
                 <Col xs={12} lg={6}>
                     <div className={styles.links}>
 
-                    <Button endIcon={<ExpandMoreIcon />}>Categorias</Button>
-                    <Button endIcon={<ExpandMoreIcon />}>Tags</Button>
-                    <Button><SearchIcon /></Button>
+                   <Link href="/blog">
+                     <Button>Blog</Button>
+                   </Link> 
+                    
 
                     </div>
                 </Col>

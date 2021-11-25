@@ -46,7 +46,7 @@
 #main .texto span {
   background: -webkit-linear-gradient(#03e7ff, #00cd88);
   -webkit-background-clip: text;
-  font-style: italic;
+
   -webkit-text-fill-color: transparent;
 }
 
