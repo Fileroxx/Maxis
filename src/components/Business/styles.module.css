@@ -125,8 +125,30 @@
   }
 }
 
-@media screen and (max-width: 458px) {
+@media screen and (min-width: 459px) and (max-width: 767px) {
+  #business .tituloBusiness h3 {
+    font-size: 2rem;
+  }
+
+  #business .tituloBusiness p {
+    font-size: 1.3rem;
+  }
+
   #business .cards .card {
-    padding: 2rem 3rem;
+    padding: 2rem 1rem;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  #business .tituloBusiness h3 {
+    font-size: 2rem;
+  }
+
+  #business .tituloBusiness p {
+    font-size: 1.3rem;
+  }
+
+  #business .cards .card {
+    padding: 2rem 1rem;
   }
 }

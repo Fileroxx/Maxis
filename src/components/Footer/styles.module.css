@@ -13,13 +13,27 @@
 
 #footer p {
   font-size: 1.3rem;
-  font-style: italic;
   font-weight: 300;
 }
 
 #footer .icones a {
   padding-left: 1rem;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  #footer {
+    background: #012531;
+  }
+
+  #footer img {
+    width: 40%;
+    margin-bottom: 1rem;
+  }
+
+  #footer .icones img {
+    width: 0%;
+  }
 }
 
 @media screen and (max-width: 458px) {

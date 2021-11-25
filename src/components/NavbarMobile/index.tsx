@@ -59,14 +59,14 @@ export default function NavbarMobile(){
 
 
         <div className={styles.links} style={{ textAlign: 'center', paddingTop: '6rem', display: 'flex', flexDirection: 'column', padding: '1rem', margin: '1rem'}}>
-            <Link href="#business"><Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo' ,background: 'linear-gradient(#07daff, #00cd88)' }}>Qual é o seu business?</Button></Link>
+            <Link href="#business"><Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo 2' ,background: 'linear-gradient(#07daff, #00cd88)' }}>Qual é o seu business?</Button></Link>
             <br />
             
-            <Link href="#infografico"><Button fullWidth  style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>O que fazemos?</Button></Link>
+            <Link href="#infografico"><Button fullWidth  style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo 2', background: 'linear-gradient(#07daff, #00cd88)' }}>O que fazemos?</Button></Link>
             <br />
-            <Link href="#materiais"><Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Educação</Button></Link>
+            <Link href="#materiais"><Button  fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo 2', background: 'linear-gradient(#07daff, #00cd88)' }}>Educação</Button></Link>
             <br />
-            <Link href="/blog"><Button fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo', background: 'linear-gradient(#07daff, #00cd88)' }}>Blog</Button></Link>
+            <Link href="/blog"><Button fullWidth style={{ textDecoration: 'none', color: '#fff', padding: '1rem', fontWeight: 'bold', fontFamily: 'Exo 2', background: 'linear-gradient(#07daff, #00cd88)' }}>Blog</Button></Link>
 
 
         </div>

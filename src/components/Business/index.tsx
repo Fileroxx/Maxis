@@ -56,7 +56,7 @@ export default function Business(){
                 </div>
 
                 <div className={styles.botaoContainer}>
-                    <Link href="/detalhes">
+                    <Link href="/startup">
                         <Button
                         className={styles.botao}
                         endIcon={<ArrowForwardRoundedIcon/>}
@@ -93,7 +93,7 @@ export default function Business(){
 
             <div className={styles.botaoContainer}>
 
-                <Link href="/detalhes">
+                <Link href="/software">
                     <Button
                     className={styles.botao}
                     endIcon={<ArrowForwardRoundedIcon/>}
@@ -130,7 +130,7 @@ export default function Business(){
             </div>
 
             <div className={styles.botaoContainer}>
-                <Link href="/detalhes">
+                <Link href="/negociosDigitais">
                     <Button 
                     endIcon={<ArrowForwardRoundedIcon/>}
                     className={styles.botao}>

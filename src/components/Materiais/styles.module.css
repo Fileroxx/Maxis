@@ -78,6 +78,14 @@
 }
 
 @media screen and (max-width: 458px) {
+  #materiais h3 {
+    font-size: 2rem;
+  }
+
+  #materiais p {
+    font-size: 1.3rem;
+  }
+
   #materiais .card:first-child {
     margin-left: 3rem;
   }

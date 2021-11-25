@@ -18,11 +18,11 @@ export default function Blog(){
         <Container>
             <Row>
 
-                <Col>
+                <Col xs={12} md={6}>
                     <h1>Conteúdos educacionais para o seu negócio</h1>
                 </Col>
 
-                <Col></Col>
+                <Col xs={12} md={6}></Col>
 
             </Row>
         </Container>
@@ -36,11 +36,11 @@ export default function Blog(){
 
     <div className={styles.cards}>
 
-<Link href="/detalhes">
+    <Link href="/comecar">
 
     <div className={styles.card}>
 
-    <img width="100%" src="fotoBlog.png" />
+    <img width="100%" src="comecarCard.png" />
 
     <div className={styles.titulo}>
 
@@ -54,9 +54,7 @@ export default function Blog(){
 
     <div className={styles.texto}>
         <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
+        Vamos começar este texto com uma pergunta: você faz parte daquelas pessoas que desejam iniciar um...
         </p>
     </div>
 
@@ -64,11 +62,11 @@ export default function Blog(){
     <div className={styles.info}>
 
         <p>
-        15/10/2021
+        25/11/2021
         </p>
 
         <p>
-        Autor: Igor do Drop
+        Autor: Fausto Madeira
         </p>
 
     </div>
@@ -81,18 +79,17 @@ export default function Blog(){
 
 
 
-<Link href="/detalhes">
+<Link href="/aumentar">
 
 
     <div className={styles.card}>
 
-    <img width="100%" src="fotoBlog.png" />
+    <img width="100%" src="vendasCard.png" />
     
     <div className={styles.titulo}>
 
     <h5>
-    Como começar um negócio
-    na internet?
+        Preciso aumentar as minhas vendas, como?
     </h5>
 
     </div>
@@ -100,9 +97,7 @@ export default function Blog(){
 
     <div className={styles.texto}>
         <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
+        Bom, acho que esse blog vai ser o mais lido da história do nosso Blog Maxis Plus, afinal, qual empreendedor...
         </p>
     </div>
 
@@ -110,11 +105,11 @@ export default function Blog(){
     <div className={styles.info}>
 
         <p>
-        15/10/2021
+        25/11/2021
         </p>
 
         <p>
-        Autor: Igor do Drop
+        Autor: Fausto Madeira
         </p>
 
     </div>
@@ -130,16 +125,15 @@ export default function Blog(){
 
 
 
-<Link href="/detalhes">
+<Link href="/escalavel">
     <div className={styles.card}>
 
-    <img width="100%" src="fotoBlog.png" />
+    <img width="100%" src="escalavelCard.png" />
 
     <div className={styles.titulo}>
 
     <h5>
-    Como começar um negócio
-    na internet?
+    Como saber se seu negócio é escalável?
     </h5>
 
     </div>
@@ -147,9 +141,7 @@ export default function Blog(){
 
     <div className={styles.texto}>
         <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
+        Antes de descobrir se o seu negócio é escalável, é importante saber o que é considerado um escalável...
         </p>
     </div>
 
@@ -158,11 +150,11 @@ export default function Blog(){
     <div className={styles.info}>
 
         <p>
-        15/10/2021
+        25/11/2021
         </p>
 
         <p>
-        Autor: Igor do Drop
+        Autor: Fausto Madeira
         </p>
 
     </div>
@@ -192,7 +184,7 @@ export default function Blog(){
 
     <div className={styles.cards}>
 
-    <Link href="/detalhes">
+    <Link href="/negociosDigitais">
     
     <div className={styles.card}>
 
@@ -201,8 +193,7 @@ export default function Blog(){
     <div className={styles.titulo}>
 
     <h5>
-    Como começar um negócio
-    na internet?
+    Negócios Digitais
     </h5>
 
     </div>
@@ -210,9 +201,7 @@ export default function Blog(){
 
     <div className={styles.texto}>
         <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
+        A internet trouxe inúmeras novas possibilidades para fazer as coisas, desde...
         </p>
     </div>
 
@@ -220,11 +209,11 @@ export default function Blog(){
     <div className={styles.info}>
 
         <p>
-        15/10/2021
+        25/11/2021
         </p>
 
         <p>
-        Autor: Igor do Drop
+        Autor: Fausto Madeira
         </p>
 
     </div>
@@ -239,17 +228,16 @@ export default function Blog(){
 
 
 
-    <Link href="/detalhes">
+    <Link href="/startup">
     
     <div className={styles.card}>
 
-    <img width="100%" src="fotoBlog.png" />
+    <img width="100%" src="startupCard.png" />
     
     <div className={styles.titulo}>
 
     <h5>
-    Como começar um negócio
-    na internet?
+    Startup
     </h5>
 
     </div>
@@ -257,9 +245,7 @@ export default function Blog(){
 
     <div className={styles.texto}>
         <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
+        Começamos esse blog com uma afirmação que você certamente...
         </p>
     </div>
 
@@ -267,11 +253,11 @@ export default function Blog(){
     <div className={styles.info}>
 
         <p>
-        15/10/2021
+        25/11/2021
         </p>
 
         <p>
-        Autor: Igor do Drop
+        Autor: Fausto Madeira
         </p>
 
     </div>
@@ -284,48 +270,7 @@ export default function Blog(){
 
 
 
-    <Link href="/detalhes">
-    
-    <div className={styles.card}>
-
-    <img width="100%" src="fotoBlog.png" />
-    
-    <div className={styles.titulo}>
-
-    <h5>
-    Como começar um negócio
-    na internet?
-    </h5>
-
-    </div>
-
-
-    <div className={styles.texto}>
-        <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
-        </p>
-    </div>
-
-    
-    <div className={styles.info}>
-
-        <p>
-        15/10/2021
-        </p>
-
-        <p>
-        Autor: Igor do Drop
-        </p>
-
-    </div>
-    
-
-
-    </div>
-    
-    </Link>
+  
 
 
 
@@ -353,17 +298,16 @@ export default function Blog(){
 
     <div className={styles.cards}>
 
-    <Link href="/detalhes">
+    <Link href="/software">
     
     <div className={styles.card}>
 
-    <img width="100%" src="fotoBlog.png" />
+    <img width="100%" src="softwareCard.png" />
     
     <div className={styles.titulo}>
 
     <h5>
-    Como começar um negócio
-    na internet?
+    Software
     </h5>
 
     </div>
@@ -371,9 +315,8 @@ export default function Blog(){
 
     <div className={styles.texto}>
         <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
+        Conjunto de instruções que devem ser seguidas e 
+        executadas por um mecanismo...
         </p>
     </div>
 
@@ -381,11 +324,11 @@ export default function Blog(){
     <div className={styles.info}>
 
         <p>
-        15/10/2021
+        25/11/2021
         </p>
 
         <p>
-        Autor: Igor do Drop
+        Autor: Fausto Madeira
         </p>
 
     </div>
@@ -395,98 +338,6 @@ export default function Blog(){
     </div>
     
     </Link>
-
-
-
-    <Link href="/detalhes">
-    
-    <div className={styles.card}>
-
-    <img width="100%" src="fotoBlog.png" />
-    
-    <div className={styles.titulo}>
-
-    <h5>
-    Como começar um negócio
-    na internet?
-    </h5>
-
-    </div>
-
-
-    <div className={styles.texto}>
-        <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
-        </p>
-    </div>
-
-    
-    <div className={styles.info}>
-
-        <p>
-        15/10/2021
-        </p>
-
-        <p>
-        Autor: Igor do Drop
-        </p>
-
-    </div>
-    
-
-
-    </div>
-    
-    </Link>
-
-
-<Link href="/detalhes">
-
-    <div className={styles.card}>
-
-    <img width="100%" src="fotoBlog.png" />
-
-    <div className={styles.titulo}>
-
-    <h5>
-    Como começar um negócio
-    na internet?
-    </h5>
-
-    </div>
-
-
-    <div className={styles.texto}>
-        <p>
-            Amet minim mollit non deserunt ullamco est 
-            sit aliqua dolor do amet sint. Velit officia
-            consequa duis enim velit mollit.
-        </p>
-    </div>
-
-
-
-    <div className={styles.info}>
-
-        <p>
-        15/10/2021
-        </p>
-
-        <p>
-        Autor: Igor do Drop
-        </p>
-
-    </div>
-
-
-
-    </div>
-
-</Link>
-
-
 
 
     </div>        

@@ -31,7 +31,7 @@ export default function Materiais() {
         
             <div className={styles.cards}>
 
-        <Link href="/blog">
+        <Link href="/comecar">
                 <div className={styles.card} data-aos='fade-up'>
 
                     <img width="100%" src="homem.png" alt=""/>
@@ -45,7 +45,7 @@ export default function Materiais() {
         </Link>
 
 
-        <Link href="/blog">  
+        <Link href="/aumentar">  
 
                 <div className={styles.card} data-aos='fade-up'>
 
@@ -59,7 +59,7 @@ export default function Materiais() {
         </Link>
 
 
-        <Link href="/blog">
+        <Link href="/escalavel">
                     <div className={styles.card} data-aos='fade-up'>
 
                     <img width="100%" src="mulher.png" alt=""/>
